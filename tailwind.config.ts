@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8026466 (Customized TailwindCSS colors, added google font and set metadata)
 
     colors: {
 
@@ -29,6 +32,7 @@ const config: Config = {
 
     },
 
+<<<<<<< HEAD
     extend: {
       // backgroundImage: {
       //   "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -43,6 +47,14 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
 >>>>>>> f58ac01 (completed team setup)
+=======
+    extend: {
+      // backgroundImage: {
+      //   "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+      //   "gradient-conic":
+      //     "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      // },
+>>>>>>> 8026466 (Customized TailwindCSS colors, added google font and set metadata)
     },
   },
   plugins: [],

@@ -3,10 +3,14 @@
 @tailwind utilities;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* :root {
 =======
 :root {
 >>>>>>> f58ac01 (completed team setup)
+=======
+/* :root {
+>>>>>>> 8026466 (Customized TailwindCSS colors, added google font and set metadata)
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -35,7 +39,11 @@ body {
     text-wrap: balance;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 } */
 =======
 }
 >>>>>>> f58ac01 (completed team setup)
+=======
+} */
+>>>>>>> 8026466 (Customized TailwindCSS colors, added google font and set metadata)
