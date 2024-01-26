@@ -19,8 +19,14 @@ export default function Page() {
 export default function Page() {
 >>>>>>> 8026466 (Customized TailwindCSS colors, added google font and set metadata)
   return (
+<<<<<<< HEAD
     <>
       <h1>Artisans Page</h1>
     </>
+=======
+    <main>
+      <h1>Artisans Page</h1>
+    </main>
+>>>>>>> 01d1997 (Initial commit)
   );
 }

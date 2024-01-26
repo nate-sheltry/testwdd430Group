@@ -28,9 +28,13 @@ const config: Config = {
 
       'white': 'hsl(0, 0%, 100%)',
 
+<<<<<<< HEAD
       'black': 'hsl(0, 0%, 0%)',
 
       'transparent': 'hsl(0, 0%, 100% / 0)'
+=======
+      'black': 'hsl(0, 0%, 0%)'
+>>>>>>> 01d1997 (Initial commit)
 
     },
 
@@ -41,6 +45,7 @@ const config: Config = {
       //   "gradient-conic":
       //     "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       // },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -71,6 +76,8 @@ const config: Config = {
       }
 >>>>>>> b67351b (created header and implemented grid layout)
 =======
+=======
+>>>>>>> 1420498 (Initial commit)
       // gridTemplateColumns: {
       //   'lg-body': '10rem 1fr',
       //   'md-body': '6rem 1fr',
@@ -86,5 +93,10 @@ const config: Config = {
   plugins: [
     require('@tailwindcss/forms')
   ],
+=======
+    },
+  },
+  plugins: [],
+>>>>>>> 01d1997 (Initial commit)
 };
 export default config;

@@ -1,10 +1,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import type { Metadata } from 'next';
 import { Kumbh_Sans } from 'next/font/google';
 import './globals.css';
 =======
+=======
+>>>>>>> 1420498 (Initial commit)
 import '@/app/ui/global.css'
 
 import type { Metadata } from 'next';
@@ -19,7 +22,20 @@ import Nav from '@/app/ui/nav';
 >>>>>>> b67351b (created header and implemented grid layout)
 =======
 import Nav from '@/app/ui/header/nav';
+<<<<<<< HEAD
 >>>>>>> 16ac5c0 (corrected file structure for sidenav and header components)
+=======
+=======
+import type { Metadata } from 'next';
+import { Kumbh_Sans } from 'next/font/google';
+import './globals.css';
+
+const kumbhSans = Kumbh_Sans({
+  subsets: ['latin'],
+  weight: ['400', '700']
+})
+>>>>>>> 01d1997 (Initial commit)
+>>>>>>> 1420498 (Initial commit)
 
 export const metadata: Metadata = {
   title: {
@@ -53,6 +69,7 @@ export const metadata: Metadata = {
 >>>>>>> 8026466 (Customized TailwindCSS colors, added google font and set metadata)
 }
 
+<<<<<<< HEAD
  
 export default function RootLayout({
   children,
@@ -102,4 +119,16 @@ export default function RootLayout({
 >>>>>>> c3afad1 (Added carousel, product, and review section)
     </html>
   );
+=======
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html lang="en">
+      <body className={kumbhSans.className}>{children}</body>
+    </html>
+  )
+>>>>>>> 01d1997 (Initial commit)
 }

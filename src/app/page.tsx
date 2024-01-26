@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function Page() {
 =======
  function Page() {
@@ -19,6 +20,8 @@ function Page() {
 
 export default Page
 =======
+=======
+>>>>>>> 1420498 (Initial commit)
 export default function Page() {
     return (
         <main>
@@ -26,4 +29,18 @@ export default function Page() {
         </main>
     )
 }
+<<<<<<< HEAD
 >>>>>>> 5a7c46b (created sidenav)
+=======
+=======
+function Page() {
+  return (
+    <main>
+      <h1>Home Page</h1>
+    </main>
+  );
+}
+
+export default Page
+>>>>>>> 01d1997 (Initial commit)
+>>>>>>> 1420498 (Initial commit)

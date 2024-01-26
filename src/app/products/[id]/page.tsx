@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8026466 (Customized TailwindCSS colors, added google font and set metadata)
 import { Metadata } from 'next';
@@ -12,6 +13,8 @@ export const metadata: Metadata = {
 };
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 1420498 (Initial commit)
 'use client';
 =======
 >>>>>>> 312aa7c (Componentized the Tab)
@@ -234,6 +237,7 @@ export default function Page() {
 =======
 export default async function Page() {
 
+<<<<<<< HEAD
 
     return (
       <main>
@@ -243,6 +247,14 @@ export default async function Page() {
   }
 >>>>>>> f58ac01 (completed team setup)
 =======
+=======
+=======
+import { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: 'Product',
+};
+>>>>>>> 1420498 (Initial commit)
 
 export default function Page() {
   return (
@@ -250,9 +262,14 @@ export default function Page() {
       <h1>Product by Id Page</h1>
     </main>
   );
+<<<<<<< HEAD
 }
 >>>>>>> 8026466 (Customized TailwindCSS colors, added google font and set metadata)
 =======
 
 }
 >>>>>>> c3afad1 (Added carousel, product, and review section)
+=======
+>>>>>>> 01d1997 (Initial commit)
+}
+>>>>>>> 1420498 (Initial commit)
