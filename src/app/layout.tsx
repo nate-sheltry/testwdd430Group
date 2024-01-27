@@ -10,8 +10,12 @@ import '@/app/ui/global.css'
 import type { Metadata } from 'next';
 import SideNav from '@/app/ui/sidenav';
 import { kumbhSans } from '@/app/ui/fonts';
+<<<<<<< HEAD
 >>>>>>> 5a7c46b (created sidenav)
 
+=======
+import Nav from '@/app/ui/nav';
+>>>>>>> b67351b (created header and implemented grid layout)
 
 export const metadata: Metadata = {
   title: {
@@ -56,6 +60,7 @@ export default function RootLayout({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <body className={kumbhSans.className}>{children}</body>
 =======
       <body>{children}</body>
@@ -65,7 +70,13 @@ export default function RootLayout({
 >>>>>>> 8026466 (Customized TailwindCSS colors, added google font and set metadata)
 =======
       <body className={`${kumbhSans.className} antialiased flex h-screen flex-col md:flex-row md:overflow-hidden`}>
+=======
+      <body className={`${kumbhSans.className} antialiased grid h-screen grid-cols-body grid-rows-body md:flex-row md:overflow-hidden md:grid-cols-md-body`}>
+          <Nav/>
+
+>>>>>>> b67351b (created header and implemented grid layout)
         <SideNav/>
+
         <div className="flex-grow p-6 md:overflow-y-auto md:p-12">{children}</div>
       </body>
 >>>>>>> 5a7c46b (created sidenav)
