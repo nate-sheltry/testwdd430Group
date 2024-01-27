@@ -1,13 +1,17 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import type { Metadata } from 'next';
 import { Kumbh_Sans } from 'next/font/google';
 import './globals.css';
+=======
+import '@/app/ui/global.css'
 
-const kumbhSans = Kumbh_Sans({
-  subsets: ['latin'],
-  weight: ['400', '700']
-})
+import type { Metadata } from 'next';
+import SideNav from '@/app/ui/sidenav';
+import { kumbhSans } from '@/app/ui/fonts';
+>>>>>>> 5a7c46b (created sidenav)
+
 
 export const metadata: Metadata = {
   title: {
@@ -41,13 +45,15 @@ export const metadata: Metadata = {
 >>>>>>> 8026466 (Customized TailwindCSS colors, added google font and set metadata)
 }
 
+ 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       <body className={kumbhSans.className}>{children}</body>
@@ -57,6 +63,12 @@ export default function RootLayout({
 =======
       <body className={kumbhSans.className}>{children}</body>
 >>>>>>> 8026466 (Customized TailwindCSS colors, added google font and set metadata)
+=======
+      <body className={`${kumbhSans.className} antialiased flex h-screen flex-col md:flex-row md:overflow-hidden`}>
+        <SideNav/>
+        <div className="flex-grow p-6 md:overflow-y-auto md:p-12">{children}</div>
+      </body>
+>>>>>>> 5a7c46b (created sidenav)
     </html>
-  )
+  );
 }

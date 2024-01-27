@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function Page() {
 =======
  function Page() {
@@ -17,3 +18,12 @@ function Page() {
 }
 
 export default Page
+=======
+export default function Page() {
+    return (
+        <main>
+            <h1>Home Page</h1>
+        </main>
+    )
+}
+>>>>>>> 5a7c46b (created sidenav)

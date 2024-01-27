@@ -19,8 +19,8 @@ export default function Page() {
 export default function Page() {
 >>>>>>> 8026466 (Customized TailwindCSS colors, added google font and set metadata)
   return (
-    <main>
+    <>
       <h1>Artisans Page</h1>
-    </main>
+    </>
   );
 }
