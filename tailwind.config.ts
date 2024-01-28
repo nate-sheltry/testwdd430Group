@@ -58,8 +58,9 @@ const config: Config = {
 >>>>>>> 8026466 (Customized TailwindCSS colors, added google font and set metadata)
 =======
       gridTemplateColumns: {
-        'md-body': '10rem 1fr',
-        'body': '6rem 1fr'
+        'lg-body': '10rem 1fr',
+        'md-body': '6rem 1fr',
+        'sm-body': '4rem 1fr'
         
       },
       gridTemplateRows: {

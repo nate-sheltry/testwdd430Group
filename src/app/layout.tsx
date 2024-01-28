@@ -61,6 +61,7 @@ export default function RootLayout({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <body className={kumbhSans.className}>{children}</body>
 =======
       <body>{children}</body>
@@ -72,6 +73,9 @@ export default function RootLayout({
       <body className={`${kumbhSans.className} antialiased flex h-screen flex-col md:flex-row md:overflow-hidden`}>
 =======
       <body className={`${kumbhSans.className} antialiased grid h-screen grid-cols-body grid-rows-body md:flex-row md:overflow-hidden md:grid-cols-md-body`}>
+=======
+      <body className={`${kumbhSans.className} antialiased grid h-screen grid-cols-sm-body grid-rows-body md:flex-row md:overflow-hidden md:grid-cols-md-body lg:grid-cols-lg-body`}>
+>>>>>>> 218f143 (header, nav and sidenav completed and responsive)
           <Nav/>
 
 >>>>>>> b67351b (created header and implemented grid layout)
