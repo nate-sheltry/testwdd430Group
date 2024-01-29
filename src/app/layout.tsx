@@ -62,6 +62,7 @@ export default function RootLayout({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <body className={kumbhSans.className}>{children}</body>
 =======
       <body>{children}</body>
@@ -77,13 +78,24 @@ export default function RootLayout({
       <body className={`${kumbhSans.className} antialiased grid h-screen grid-cols-sm-body grid-rows-body md:flex-row md:overflow-hidden md:grid-cols-md-body lg:grid-cols-lg-body`}>
 >>>>>>> 218f143 (header, nav and sidenav completed and responsive)
           <Nav/>
+=======
+
+      <body className={`${kumbhSans.className} antialiased grid h-screen grid-cols-[4rem_1fr] grid-rows-[5rem_1fr] md:flex-row md:overflow-hidden md:grid-cols-[6rem_1fr] lg:grid-cols-[10rem_1fr]`}>
+
+        <Nav/>
+>>>>>>> c3afad1 (Added carousel, product, and review section)
 
 >>>>>>> b67351b (created header and implemented grid layout)
         <SideNav/>
 
-        <div className="flex-grow p-6 md:overflow-y-auto md:p-12">{children}</div>
+        <div className="p-6 md:overflow-y-auto md:p-12">{children}</div>
+
       </body>
+<<<<<<< HEAD
 >>>>>>> 5a7c46b (created sidenav)
+=======
+
+>>>>>>> c3afad1 (Added carousel, product, and review section)
     </html>
   );
 }

@@ -28,7 +28,9 @@ const config: Config = {
 
       'white': 'hsl(0, 0%, 100%)',
 
-      'black': 'hsl(0, 0%, 0%)'
+      'black': 'hsl(0, 0%, 0%)',
+
+      'transparent': 'hsl(0, 0%, 100% / 0)'
 
     },
 
@@ -39,6 +41,7 @@ const config: Config = {
       //   "gradient-conic":
       //     "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       // },
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     extend: {
@@ -67,8 +70,21 @@ const config: Config = {
         'body': '5rem 1fr'
       }
 >>>>>>> b67351b (created header and implemented grid layout)
+=======
+      // gridTemplateColumns: {
+      //   'lg-body': '10rem 1fr',
+      //   'md-body': '6rem 1fr',
+      //   'sm-body': '4rem 1fr'
+        
+      // },
+      // gridTemplateRows: {
+      //   'body': '5rem 1fr'
+      // }
+>>>>>>> c3afad1 (Added carousel, product, and review section)
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms')
+  ],
 };
 export default config;
