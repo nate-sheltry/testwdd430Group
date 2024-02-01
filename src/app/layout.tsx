@@ -8,14 +8,18 @@ import './globals.css';
 import '@/app/ui/global.css'
 
 import type { Metadata } from 'next';
-import SideNav from '@/app/ui/sidenav';
+import SideNav from '@/app/ui/sidenav/sidenav';
 import { kumbhSans } from '@/app/ui/fonts';
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a7c46b (created sidenav)
 
 =======
 import Nav from '@/app/ui/nav';
 >>>>>>> b67351b (created header and implemented grid layout)
+=======
+import Nav from '@/app/ui/header/nav';
+>>>>>>> 16ac5c0 (corrected file structure for sidenav and header components)
 
 export const metadata: Metadata = {
   title: {
